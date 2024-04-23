@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 6</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.pagination {
+    display: flex;
+    gap: 10px;
+}
+
+.page {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.page:hover {
+    background-color: #b3b3b3;
+}
+
+.page.active {
+    background-color: #007bff;
+    color: #fff;
+}
+</style>
+<body>
+    <div class="pagination">
+        <!-- Thay đổi số lượng các hình vuông tại đây -->
+        <div class="page">Previous</div>
+        <div class="page">2</div>
+        <div class="page">3</div>
+        <div class="page">4</div>
+        <div class="page">Next</div>
+        <!-- Thêm nhiều hình vuông nếu cần -->
+    </div>
+</body>
+</html>
+</body>
+</html>
